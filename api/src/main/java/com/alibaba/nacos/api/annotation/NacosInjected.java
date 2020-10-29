@@ -43,7 +43,7 @@ public @interface NacosInjected {
      * The {@link NacosProperties} attribute, If not specified, it will use global Nacos Properties.
      *
      * @return the default value is {@link NacosProperties}
-     */
+     */aaa
     NacosProperties properties() default @NacosProperties;
     
 }
